@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+* {
+  font-family: Montserrat, Roboto, Arial;
+  color: rgba(255, 255, 255, .75);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  background: #282828;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 0;
+}
+.county:hover {
+  fill: #320078 !important;
+}
+.axis {
+  color: rgba(255, 255, 255, .75);
+  font-size: 9px;
+}
+#tooltip {
+  display: none;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .85);
+  font-size: 11px;
+  white-space: nowrap;
+}
